@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  /* Ver como se definen los colores en tailwind 4.1 */
+  --color-negrooo: "#1E293B";
+}

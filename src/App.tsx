@@ -1,10 +1,11 @@
 import "./App.css";
+import Preloader from "./components/preLoader/preLoader";
 
 function App() {
-
   return (
     <>
-    <h1>Jcc Design</h1>
+      <Preloader />
+      <h1>JCC Design</h1>
     </>
   );
 }
