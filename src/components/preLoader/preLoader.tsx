@@ -17,7 +17,7 @@ const Preloader = () => {
     <AnimatePresence>
       {show && (
         <motion.div
-          className="fixed inset-0 bg-white dark:bg-black z-50 flex items-center justify-center"
+          className="fixed inset-0 bg-white dark:bg-background-dark z-50 flex items-center justify-center"
           initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
